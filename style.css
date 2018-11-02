@@ -1,0 +1,250 @@
+body {
+  width: 100vw;
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: gray;
+  height: 5vh;
+  color: white;
+}
+.title {
+  font-family: Helvetica;
+  position: absolute;
+  font-size: 40px;
+}
+.navbar {
+  font-family: Helvetica;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-size: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+#navbarItem {
+  font-size: 20px;
+  font-family: sans-serif;
+  display: block;
+  padding: 14px 16px;
+  float: right;
+}
+.divheadline {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  /* align-items: center */
+}
+headline {
+  font-size: 50px;
+  color: #e9e05f;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .3em; 
+}
+
+.body {
+  height: 70vh;
+}
+.box {
+  height: auto;
+  width: 100%;
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+justify-content: space-around
+}
+row1 {
+    height: auto;
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+}
+column1 > .box {
+  height:20vh ;
+  width: 20vw;
+  background-color: #A4FFD7;
+  box-sizing: content-box;
+  margin: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+
+}
+row2 {
+  height: auto;
+  width: 100%;
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+justify-content: space-around;
+}
+column2 > .box {
+  height: 20vh;
+  width: 41vw;
+  margin: 10px;
+  box-sizing: content-box;
+  background-color: #FFC36C;
+}
+row3 {
+  height: auto;
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+column3 > .box {
+  padding-top: 25px;
+  height: auto;
+  width: 30vw;
+  background-color: none;
+}
+#elephant {
+  float: right;
+  height: 180px;
+  width: 300px;
+}
+
+footer {
+  background-color: #3a3a56;
+  height: 10vh;
+}
+/* 
+--Trying to figure out how to get the 
+List items onto the same line as Company
+--How to make multiple boxes on the same line
+--
+ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
